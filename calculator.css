@@ -1,0 +1,30 @@
+.row {
+	display: flex;
+	flex-direction: inherit;
+	justify-self: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.btn {
+	width: 100px;
+	height: 100px;
+	background: #ffd700;
+	border-radius: 4px;
+
+}
+
+.btn:active {
+	background: #ffb700;
+}
+
+.result {
+	color: #ffa600;
+}
+
+.result:disabled {
+	background-color: white;
+	border: solid 1px #ffe100;
+	font-size: 14px;
+}
